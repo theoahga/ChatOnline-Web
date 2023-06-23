@@ -1,0 +1,77 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+  background-color: white;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  .body {
+    display: flex;
+    place-items: center;
+    background-color: #1a1a1a;
+  }
+
+  #app {
+    padding: 0 2rem;
+    background-color: transparent;
+  }
+}
+
+.customInput{
+  border-color: #1a1a1a !important;
+  border-radius: 0 !important;
+}
+
+.customInput:focus{
+  box-shadow: 0 0 0 0.2rem rgba(126, 87, 194, 0.25) !important;
+}
+
+.customBtnInput{
+  padding: 0.02em 0.5em !important;
+  border-radius:  2em !important;
+  color: #1a1a1a !important;
+  margin-right: 0.5em;
+  border-color: #1a1a1a!important;
+}
+
+.purpleColor{
+  color: #1a1a1a !important;
+}
+
+.unvalidColor{
+  color: #fd0101 !important;
+}
+
+.customSubmitBtn{
+  border-radius:  2em !important;
+  background-color: #1a1a1a !important;
+  border-color: transparent !important;
+}
+
+.customSubmitBtn:hover{
+  background-color: white !important;
+  color: #1a1a1a !important;
+  border-color: #1a1a1a  !important;
+}
+
+.resetLink:hover{
+  background-color: #EDE7F6 !important;
+}
